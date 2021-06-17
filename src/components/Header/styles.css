@@ -1,0 +1,24 @@
+.container--header{
+    display: flex;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    padding: 1% 5%;
+    background-color: #2b96b1;
+    color: #FFF;
+}
+.area--button{
+    display: flex;
+    width: 6%;
+    flex-direction: row;
+}
+.btn-icon{
+    margin-right: 10%;
+    cursor: pointer;
+    width: 10px;
+    height: 10px;
+}
+.btn-icon:last-child{
+    margin-right: 0;
+}

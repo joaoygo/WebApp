@@ -1,0 +1,47 @@
+.container--home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 100%;
+    color: #000;
+    background-color: #f9f9f9;
+}
+h1.title--home{
+    margin-top: 3%;
+}
+.teste{
+    background-color: lightcoral;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul.list--cases {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-bottom: 5%;
+    padding: 4%;
+    border-radius: 1%;
+    background-color: transparent;
+}
+.list--cases li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    border: 1px solid #000;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+    background-color: #ffffff;
+    padding: 10%;
+    border-radius: 20px;
+}
+.about{
+    cursor: pointer;
+    margin-top: 3%;
+}
