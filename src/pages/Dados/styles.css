@@ -15,7 +15,7 @@ h1.title--data{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 50%;
     padding: 4%;
     margin-bottom: 10%;
     background-color: #fff;
@@ -51,7 +51,7 @@ form.data--form {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 30%;
+    width: 50%;
     padding: 4%;
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
@@ -90,4 +90,29 @@ form.data--form button {
 }
 form.data--form button:hover {
     background: #48c248;
+}
+
+@media (max-width: 1000px) {
+    .data--now{
+        min-width: 60%;
+    }
+    form.data--form {
+        min-width: 60%;
+    }
+}
+@media (max-width: 700px) {
+    .data--now{
+        min-width: 80%;
+    }
+    form.data--form {
+        min-width: 80%;
+    }
+}
+@media (max-width: 330px) {
+    .data--now{
+        min-width: 90%;
+    }
+    form.data--form {
+        min-width: 90%;
+    }
 }

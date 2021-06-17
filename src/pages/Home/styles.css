@@ -45,3 +45,14 @@ ul.list--cases {
     cursor: pointer;
     margin-top: 3%;
 }
+
+@media (max-width: 1000px) {
+    ul.list--cases {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 440px) {
+    ul.list--cases {
+        grid-template-columns: repeat(1, 1fr);
+        }
+}

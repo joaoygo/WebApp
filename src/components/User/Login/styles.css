@@ -47,3 +47,14 @@ form.login--form button {
 form.login--form button:hover{
     background: #48c248;
 }
+
+@media (max-width: 1024px) {
+    form.login--form{
+        min-width: 50%;
+    }
+}
+@media (max-width: 700px) {
+    form.login--form{
+        min-width: 70%;
+    }
+}

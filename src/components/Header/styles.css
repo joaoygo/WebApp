@@ -22,3 +22,18 @@
 .btn-icon:last-child{
     margin-right: 0;
 }
+@media (max-width: 900px) {
+    .area--button{
+        margin-right: 3%;
+    }
+}
+@media (max-width: 700px) {
+    .area--button{
+        margin-right: 5%;
+    }
+}
+@media (max-width: 550px) {
+    .area--button{
+        margin-right: 20%;
+    }
+}
